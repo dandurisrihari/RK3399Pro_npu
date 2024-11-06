@@ -1,0 +1,208 @@
+execve("./rknn_mobilenet_demo", ["./rknn_mobilenet_demo", "model/mobilenet_v1.rknn", "model/dog_224x224.jpg"], 0x7ffdea77b0 /* 38 vars */) = 0
+brk(NULL)                               = 0x55737c9000
+faccessat(AT_FDCWD, "/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/tls/aarch64/librknn_api.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/tls/aarch64", 0x7fde92be00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/tls/librknn_api.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/tls", 0x7fde92be00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/aarch64/librknn_api.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/aarch64", 0x7fde92be00, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/librknn_api.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0pg\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=135800, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f90f41000
+mmap(NULL, 133848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f90ef5000
+mmap(0x7f90f15000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f90f15000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/aarch64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/aarch64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=88261, ...}) = 0
+mmap(NULL, 88261, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f90edf000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0d\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=151656, ...}) = 0
+mmap(NULL, 189448, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f90eb0000
+mprotect(0x7f90eca000, 61440, PROT_NONE) = 0
+mmap(0x7f90ed9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f90ed9000
+mmap(0x7f90edb000, 13320, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f90edb000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/aarch64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/aarch64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0P\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 78080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f90e9c000
+mprotect(0x7f90e9f000, 61440, PROT_NONE) = 0
+mmap(0x7f90eae000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f90eae000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/aarch64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/aarch64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/aarch64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\320\315\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1541768, ...}) = 0
+mmap(NULL, 1617528, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f90d11000
+mprotect(0x7f90e7d000, 65536, PROT_NONE) = 0
+mmap(0x7f90e8d000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16c000) = 0x7f90e8d000
+mmap(0x7f90e99000, 11896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f90e99000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/aarch64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/aarch64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\340\267\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=706720, ...}) = 0
+mmap(NULL, 770168, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f90c54000
+mprotect(0x7f90d00000, 61440, PROT_NONE) = 0
+mmap(0x7f90d0f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xab000) = 0x7f90d0f000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/aarch64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/aarch64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\20)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=80168, ...}) = 0
+mmap(NULL, 144440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f90c30000
+mprotect(0x7f90c43000, 61440, PROT_NONE) = 0
+mmap(0x7f90c52000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7f90c52000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/linaro/Desktop/RK3399Pro_npu/rknn-api/examples/c_demos/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/aarch64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/aarch64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/aarch64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0p\16\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1439544, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f90f3f000
+mmap(NULL, 1511520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f90abe000
+mprotect(0x7f90c17000, 61440, PROT_NONE) = 0
+mmap(0x7f90c26000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x158000) = 0x7f90c26000
+mmap(0x7f90c2c000, 12384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f90c2c000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f90f3d000
+mprotect(0x7f90c26000, 16384, PROT_READ) = 0
+mprotect(0x7f90c52000, 4096, PROT_READ) = 0
+mprotect(0x7f90d0f000, 4096, PROT_READ) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f90f3b000
+mprotect(0x7f90e8d000, 40960, PROT_READ) = 0
+mprotect(0x7f90eae000, 4096, PROT_READ) = 0
+mprotect(0x7f90ed9000, 4096, PROT_READ) = 0
+mprotect(0x5557705000, 4096, PROT_READ) = 0
+mprotect(0x7f90f45000, 4096, PROT_READ) = 0
+munmap(0x7f90edf000, 88261)             = 0
+set_tid_address(0x7f90f3d0e0)           = 16270
+set_robust_list(0x7f90f3d0f0, 24)       = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f90eb5e80, sa_mask=[], sa_flags=SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f90eb5f40, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x55737c9000
+brk(0x55737ea000)                       = 0x55737ea000
+mmap(NULL, 16781312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8fabd000
+futex(0x7f90e9a048, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f90e9a04c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "model/mobilenet_v1.rknn", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4303003, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4303003, ...}) = 0
+lseek(3, 4300800, SEEK_SET)             = 4300800
+read(3, "tensor_id\": 0, \"right_node\": {\"n"..., 2203) = 2203
+mmap(NULL, 4304896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8f6a2000
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "RKNN\0\0\0\0\1\0\0\0\0\0\0\0d\370@\0\0\0\0\0-\351\377\377\366\367\377\377"..., 4300800) = 4300800
+read(3, "tensor_id\": 0, \"right_node\": {\"n"..., 4096) = 2203
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 3
+connect(3, {sa_family=AF_UNIX, sun_path=@"transfer_proxy"}, 17) = 0
+getpid()                                = 16270
+write(3, "\0\0\0\0\3\0\0\0\377\0\0\0\216?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 48) = 48
+read(3, "\0\0\0\0", 4)                  = 4
+write(3, "\v\251A\0", 4)                = 4
+write(3, "b\235\1\5\334\3603\1\377\377\377\377\377\377\377\377\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 1048576) = 1048576
+write(3, "ngi__`mhcgaZdYeijafcXdakc^bi^aSk"..., 1048576) = 1048576
+write(3, "o\222k\200}\227z~\200\210\210k\206\205\200\200\177\200\211\203|~\200\202\177~v~|\201\204s"..., 1048576) = 1048576
+write(3, "Vs`OZXSC_DL_SS`W_Ye`ua[X`KX`VW]Z"..., 1048576) = 1048576
+write(3, "\\\\OYX^UYPTa[US[ebWZWUZ\\TVZQe_NRV"..., 108811) = 108811
+read(3, "p\1\0\0", 4)                   = 4
+read(3, "b\235\1\5\334\3603\1\3\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 368) = 368
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x8), ...}) = 0
+write(1, "D RKNNAPI: ====================="..., 58) = 58
+write(1, "D RKNNAPI: RKNN VERSION:\n", 25) = 25
+write(1, "D RKNNAPI:   API: 1.7.5 (bb79b30"..., 61) = 61
+write(1, "D RKNNAPI:   DRV: 1.6.0 (159d2d3"..., 61) = 61
+write(1, "D RKNNAPI: ====================="..., 58) = 58
+write(3, "y\0\0\0", 4)                  = 4
+write(3, "b\235\1\5\334\3603\1\3\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0"..., 121) = 121
+read(3, "\226\215\1\0", 4)              = 4
+read(3, "b\235\1\5\334\3603\1\3\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0"..., 101782) = 36544
+read(3, "ACQFUuX]OE/LY?QX955JU8EZBG=@_IV>"..., 65238) = 36544
+read(3, "VK\\@A9bPL>dLTOLF=A[HTGNA=FUF5e=E"..., 28694) = 28694
+write(3, "y\0\0\0", 4)                  = 4
+write(3, "b\235\1\5\334\3603\1\3\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\0\0\0\0\0\0\0\0"..., 121) = 121
+read(3, "}\2\2\0", 4)                   = 4
+read(3, "b\235\1\5\334\3603\1\3\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\0\0\0\0\0\0\0\0"..., 131709) = 36544
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 95165) = 36544
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 58621) = 36544
+read(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 22077) = 22077
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f8eea1000
+mprotect(0x7f8eea2000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7f8f6a0ac0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8f6a1290, tls=0x7f8f6a18c0, child_tidptr=0x7f8f6a1290) = 16318
+write(1, "model input num: 1, output num: "..., 34) = 34
+write(1, "input tensors:\n", 15)        = 15
+write(1, "index=0 name=input_0 n_dims=4 di"..., 127) = 127
+write(1, "output tensors:\n", 16)       = 16
+write(1, "index=0 name=MobilenetV1/Predict"..., 152) = 152
+write(1, "w=224,h=224,c=3, fmt=1\n", 23) = 23
+openat(AT_FDCWD, "model/dog_224x224.jpg", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=18889, ...}) = 0
+read(4, "\377\330\377\340\0\20JFIF\0\1\1\1\0`\0`\0\0\377\333\0C\0\2\1\1\2\1\1\2"..., 4096) = 4096
+brk(0x5573810000)                       = 0x5573810000
+read(4, "=\275\253\242\222\2\374ma\264\236\331\307\323\377\0\257SGm\344|\316\262|\303;\266)\317\343\375"..., 4096) = 4096
+read(4, "\374=\326\223X\360\2641\314\253<l\243\346,\26H\233\31\357\333\332\215c\301_m\211\243i.m"..., 4096) = 4096
+read(4, "B\25\233d\32lbX\321K\5\226\340\220A\353\2268\335\327\271\3\35+\327~\fk\237=\325\275"..., 4096) = 4096
+read(4, "\0\347\2221_&\276\2735\314aZi\2\343 3\226\3\363\376\224\263_nP\314\333\217\257A\376"..., 4096) = 2505
+read(4, "", 4096)                       = 0
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8ee7c000
+lseek(4, 0, SEEK_CUR)                   = 18889
+close(4)                                = 0
+write(1, "D RKNNAPI: __can_use_fixed_point"..., 55) = 55
+write(1, "\n", 1)                       = 1
+write(3, "wP\2\0", 4)                   = 4
+write(3, "b\235\1\5\334\3603\1\3\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0"..., 151671) = 151671
+write(1, "rknn_run\n", 9)               = 9
+write(3, "x\4\0\0", 4)                  = 4
+write(3, "b\235\1\5\334\3603\1\3\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0"..., 1144) = 1144
+futex(0x55737db420, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x55737db3c8, FUTEX_WAKE_PRIVATE, 1) = 0
+write(1, " --- Top5 ---\n", 14)         = 14
+write(1, "156: 0.853516\n", 14)         = 14
+write(1, "155: 0.091980\n", 14)         = 14
+write(1, "205: 0.013626\n", 14)         = 14
+write(1, "284: 0.006485\n", 14)         = 14
+write(1, "194: 0.002020\n", 14)         = 14
+write(3, "l\0\0\0", 4)                  = 4
+write(3, "b\235\1\5\334\3603\1\3\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\0\0\0\0\0\0\0\0"..., 108) = 108
+futex(0x55737db424, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, {tv_sec=1730914907, tv_nsec=128599869}, FUTEX_BITSET_MATCH_ANY) = 0
+futex(0x55737db3c8, FUTEX_WAKE_PRIVATE, 1) = 0
+shutdown(3, SHUT_RDWR)                  = 0
+close(3)                                = 0
+nanosleep({tv_sec=0, tv_nsec=1000000}, 0x7fde92cb10) = 0
+munmap(0x7f8f6a2000, 4304896)           = 0
+munmap(0x7f8ee7c000, 151552)            = 0
+munmap(0x7f8fabd000, 16781312)          = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
